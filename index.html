@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Responsive Portfolio Website Design</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portifólio.</a> 
+
+        <nav class="navbar">
+            <a href="#home" class="active">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contact">Contatos</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, me chamo</h3>
+            <h1>Mabio Klayne</h1>
+            <p>
+            Possuo vasta experiência nas áreas de administração e recursos humanos em ambientes de escritório. Ao longo da minha trajetória profissional, desenvolvi competências em gestão de pessoas, recrutamento e seleção, treinamento e desenvolvimento, além da administração de rotinas e processos administrativos. 
+            </p>
+            <p>Tenho habilidade na implementação de políticas de RH, gestão de benefícios e folha de pagamento, bem como na coordenação de atividades administrativas essenciais para o funcionamento eficiente do escritório.</p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/mabio.alves.96/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/mabio_d_klayne/"><i class='bx bxl-instagram-alt'></i>
+                <a href="https://www.linkedin.com/in/mabio-alves-286560231/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://wa.me/5594992016876?text="><i class='bx bxl-whatsapp'></i>
+            </div>
+
+        
+
+            <a href="#" class="btn">Baixar currículo</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Desenvolvedor Web</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Estagiário</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="nezuko02.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="nezuko.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Sobre<span>mim</span></h2>
+            <h3>
+                Olá, seja bem-vindo ao meu portifólio! Me chamo Mabio Klayne, Sou desenvolvedor web apaixonado que gosta de aprender novas tecnologias e resolvendo problemas com código!
+            </h3>
+            <p>
+                Este site é o meu blog pessoal onde escrevo sobre desenvolvimento web temas que me interessam e me inspiram.
+            </p>
+            <p>
+                Obrigado por visitar meu site e me conhecer melhor. Eu espero que você gostei de ler minhas postagens no blog e fundar úteis e informativos. Se você quiser ler mais dos meus posts, inscreva-se para a minha newsletter para onde envio semanalmente atualizações sobre tendências e dicas de desenvolvimento web. Se você tiver algum feedback ou sugestões, por favor me avise. Eu adoraria ouvir de você.
+
+Leia mais
+            </p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Meus<span>Serviços</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desenvolvedor Web</h3>
+                <p></p>
+                <a href="#" class="btn">Ler Mais</a>
+            </div>
+        </div>
+    </section>
+
+      
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright © 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
